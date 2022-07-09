@@ -38,6 +38,18 @@ function addElementInApi({ name, url }) {
 function removeElement(el) {
     if (confirm('Tem certeza que deseja deletar?'))
         el.parentNode.remove()
+
+        removeElementInApi(el.parentNode.firstElementChild)
+
+}
+
+function removeElementInApi(a) {
+
+    let name = a.textContent
+    let url = a.origin
+
+    fetch(`http://localhost:3000?name=${name}&url=${url}&del=1`)
+
 }
 
 form.addEventListener("submit", (event) => {

@@ -5,16 +5,16 @@
       "url": "http://rocketseat.com.br"
     },
     {
-      "name": "Google",
-      "url": "http://google.com"
-    },
-    {
       "name": "Facebook",
       "url": "http://facebook.com"
     },
     {
       "name": "Instagram",
       "url": "http://instagram.com"
+    },
+    {
+      "name": "Google",
+      "url": "http://google.com"
     }
   ]
 }
